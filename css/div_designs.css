@@ -1,0 +1,439 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-position:center;
+	background-position:top;
+	background-repeat: no-repeat;
+	background-color: #5b9338;
+}
+#container {
+	width: 836px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;	
+	background-repeat: repeat-x;
+}
+#innercontainer {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;	
+	background-repeat: repeat-x;
+}
+#scroll {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;	
+	background-repeat: repeat-x;
+}
+#projecttable{
+	margin-left: 18px;
+	margin-right: 18px;
+	height: 180px;
+	width: 194px;
+	line-height:10px;
+	text-align:left;
+	vertical-align:top;
+	display: table-cell;
+}
+#projecttable1{
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 111px;
+	width: 111px;
+	line-height:10px;
+	display: table-cell;
+}
+#mainpage{
+	margin-left: 0px;
+	margin-right: 0px;	
+	width: 544px;
+	line-height:10px;
+	text-align:left;
+	vertical-align:top;
+	
+}
+#companypage{
+	margin-left: 0px;
+	margin-right: 0px;	
+	width: 544px;
+	line-height:10px;
+	text-align:left;
+	vertical-align:top;
+	background-image:url(../Images/Mainpage_Back.jpg);
+}
+#main_top{
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 177px;
+	width: 544px;
+	line-height:0px;
+	text-align:left;
+	
+	
+	background-image:url(../Images/main_top.jpg);
+	
+}
+#company_top{
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 177px;
+	width: 544px;
+	line-height:0px;
+	text-align:left;	
+	background-image:url(../Images/Mainpage_Back.jpg);
+	
+}
+#company_text{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 503px;
+	line-height:0px;
+	text-align: left;
+	vertical-align:top;
+}
+#services{
+	margin-left: 10px;
+	margin-right: 10px;
+	width:372px;
+	line-height:10px;
+	text-align:left;
+	vertical-align:top;
+	
+}
+
+.image {
+	border:#0FC;
+}
+#Logo_top {
+	height: 90px;
+	width: 100%;
+	background-image:url(Images/Logo_Top.jpg);
+}
+#Logo_Border {
+	height: 14px;
+	width: auto;
+	background-image:url(../Images/Logo_Border.jpg);
+	background-repeat:repeat-x;
+}
+#bottom_border {
+	height: 44px;
+	width: auto;
+	background-image:url(../Images/Bottom_Border.jpg);
+	background-repeat:repeat-x;
+	
+}
+	
+#top_border_div {
+	width: 100%;
+	height: 4px;
+	background-image: url(../images/top_running_Border.jpg);
+	background-repeat: repeat-x;
+}
+#top_border_image_left {
+	float: left;
+	height: 4px;
+	width: 4px;
+}
+
+#top_border_image_right {
+	float: right;
+	height: 4px;
+	width: 4px;
+}
+
+#body_top_flash {
+	height: 400px;
+	clear: both;
+	background-image: url(../images/left_running_border.jpg);
+	background-repeat: repeat-y;
+	width: 4px;
+	float: left;
+	padding: 4px;
+}
+#main_div {
+	width: 775px;
+	float: left;
+	background-image: url(../images/running_border.gif);
+	background-color: #161616;
+}
+#top_flash {
+	margin-right: 0 px;
+	margin-top: 0 px;
+	width: 545px;
+	height: 312px;
+	
+}
+
+#colors {
+	background-image: url(../images/color_lines.jpg);
+	height: 57px;
+	width: 721px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#menus {
+	width: 545px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 34px;
+	margin-bottom: 0px;
+	background-image:url(../Images/Menu_line.jpg);
+	background-repeat:repeat-x;
+	text-align: center;
+	color: #2E2E2E;
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+#left1 {
+	float: left;
+	height: 57px;
+	width: 61px;
+}
+#right1 {
+	float: right;
+	height: 57px;
+	width: 56px;
+}
+
+#line {
+	width: 721px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+#editable {
+	width: 544px;
+	height: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+#apDiv1 {
+	
+	position:absolute;
+	width:721px;
+	height:350px;
+	z-index:2;
+	top: 592px;
+	left: auto;
+	right: auto;
+	
+}
+#services {
+	width: 721px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	z-index: 1;
+}
+#positions {
+	float: right;
+	width: 500px;
+}
+
+#copyright {
+	text-align: center;
+	vertical-align: middle;
+	height: 34px;
+}
+#apDiv1 {
+	position:absolute;
+	left:63px;
+	top:67px;
+	width:421px;
+	height:188px;
+	z-index:1;
+	}
+
+.Fonts {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+#bottom_border_image {
+	background-image:url(../Images/Bottom_Header.jpg);
+	width: 780;
+	height: 255;
+}
+#bottom_border_div {
+	background-image: url(../images/bottom_running_border.jpg);
+	background-repeat: repeat-x;
+	height: 4px;
+	width: 775px;
+}
+#bottom_border_image_left {
+	float: left;
+	height: 4px;
+	width: 4px;
+}
+#bottom_border_image_right {
+	float: right;
+	height: 4px;
+	width: 4px;
+}
+#line1 {
+	height: 10px;
+	width: 721px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Jobs {
+	float: right;
+	height: 200px;
+	width: 500px;
+}
+.text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #999;
+	text-align: justify;
+	margin-right: 10px;
+}
+.text1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color:#FFF;
+	font-weight:bold;
+	text-align: justify;
+	margin-right: 10px;
+	
+}
+ul {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #999;
+	line-height: 25px;
+}
+.text_heading {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #FFF;
+	text-align: justify;
+	font-weight: bolder;
+}
+#container #main_div #editable #jobs #positions ul {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	color: #999;
+}
+#company {
+	float: left;
+	width: 200px;
+}
+.company_headings {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	left: 10px;
+	padding-left: 25px;
+}
+
+#bigcontainer {
+	width:780px;
+	height: auto;
+	border:none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	
+}
+#projects{
+	width:auto;
+	height:1016px;
+	background-image:url(../Images/ProjectBack.jpg);
+	margin-top: 0px;
+}
+
+
+#container #main_div #editable #jobs #positions #All_Jobs ul {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 25px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #146d90;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}
+.company_headingsBold {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 25px;
+	margin-left: 25px;
+}
+#container #main_div #editable #positions .text strong a img {
+	border-top-color: #161616;
+	border-right-color: #161616;
+	border-bottom-color: #161616;
+	border-left-color: #161616;
+}
+.Newfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant: normal;
+	width: auto;
+	top: auto;
+	text-align: justify;
+	word-spacing:inherit;
+	color: #000;
+
+}
+.toplinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:9.5px;
+	font-style:normal;
+	font-variant: normal;
+	width: auto;
+	top: auto;
+	text-align: justify;
+	word-spacing:inherit;
+	color: #000;
+
+}
+.CoprightText {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style:inherit;
+	padding-left:25px;
+	
+
+	
+}
