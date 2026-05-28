@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <id>1</id>
+        <thumb>images/portfolio/thumb/website1.jpg</thumb>
+        <titre>website1</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website1.jpg</image>
+        <category>Cat 1</category>
+        <link>portfolio.html</link>
+    </item>
+    <item>
+        <id>2</id>
+        <thumb>images/portfolio/thumb/website2.jpg</thumb>
+        <titre>website2</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website2.jpg</image>
+        <category>Cat 2</category>
+        <link>portfolio.html</link>
+    </item>
+    <item>
+        <id>3</id>
+        <thumb>images/portfolio/thumb/website3.jpg</thumb>
+        <titre>website3</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website3.jpg</image>
+        <category>Cat 3</category>
+        <link>portfolio.html</link>
+    </item>
+    <item>
+        <id>4</id>
+        <thumb>images/portfolio/thumb/website4.jpg</thumb>
+        <titre>website4</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website4.jpg</image>
+        <category>Cat 4</category>
+        <link>portfolio.html</link>
+    </item>
+    <item>
+        <id>5</id>
+        <thumb>images/portfolio/thumb/website5.jpg</thumb>
+        <titre>website5</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website5.jpg</image>
+        <category>Cat 5</category>
+        <link>portfolio.html</link>
+    </item>
+    <item>
+        <id>6</id>
+        <thumb>images/portfolio/thumb/website6.jpg</thumb>
+        <titre>website6</titre>
+        <description>Lorem ipsum.</description>
+        <image>images/portfolio/website6.jpg</image>
+        <category>Cat 6</category>
+        <link>portfolio.html</link>
+    </item>
+</items>

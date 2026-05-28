@@ -1,0 +1,43 @@
+<? 
+ob_end_flush();
+$subject=$_POST["subject"];
+$name=$_POST["name"];
+$email=$_POST["email"];
+$company=$_POST["company"];
+$address=$_POST["address"];
+$city=$_POST["city"];
+$state=$_POST["state"];
+$zip=$_POST["zip"];
+$country=$_POST["country"];
+$phone=$_POST["phone"];
+$interested=$_POST["interested"];
+$aboutus=$_POST["aboutus"];
+$msg=$_POST["msg"];
+$strMyEmailAddress="bharat.kr@gmail.com";
+$strReturnEmailAddress=$_POST["email"];
+$strBody="<table border=1 cellpadding=1 cellspacing=1 bordercolor=#000000 width=700><tr><td colspan=4><h4>E-Mail from ".$name."</h4></td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>NAME:</h5></b></td></tr></table></td><td> ".$name."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>E-MAIL:</h5></b></td></tr></table></td><td> ".$email."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>COMPANY:</h5></b></td></tr></table></td><td> ".$company."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>ADDRESS:</h5></b></td></tr></table></td><td> ".$address."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>CITY:</h5></b></td></tr></table></td><td> ".$city."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>STATE:</h5></b></td></tr></table></td><td> ".$state."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>ZIP:</h5></b></td></tr></table></td><td> ".$zip."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>COUNTRY:</h5></b></td></tr></table></td><td> ".$country."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>PHONE NO.:</h5></b></td></tr></table></td><td> ".$phone."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>PERSON IS INTERESTED IN:</h5></b></td></tr></table></td><td> ".$interested."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>PERSON HEARD ABOUT US FROM:</h5></b></td></tr></table></td><td> ".$aboutus."</td></tr>";
+$strBody.="<tr><td colspan=3><table width=250><tr><td><br><b><h5>MESSAGE:</h5></b></td></tr></table></td><td> ".$msg."</td></tr></table>";
+$objCDOMail=; // WARNING: unable to convert Server
+$objCDOMail->From=$email;
+$objCDOMail->To=$strMyEmailAddress;
+$objCDOMail->Cc=$strCCEmailAddress;
+$objCDOMail->Bcc=$strBCCEmailAddress;
+$objCDOMail->Subject=$subject;
+$objCDOMail->BodyFormat=0;
+$objCDOMail->MailFormat=0;
+$objCDOMail->Body=$strBody;
+$objCDOMail->Importance=2;
+$objCDOMail->Send;
+$objCDOMail=NULL;
+?>
